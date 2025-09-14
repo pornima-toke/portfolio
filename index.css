@@ -1,0 +1,238 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 70px 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #e20101, #b10000);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd000;
+}
+
+/* Resume Section (inside About) */
+.resume-card {
+    background: #fff;
+    display: inline-block;
+    padding: 25px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+    margin: 30px 0 20px 0;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.resume-card:hover {
+    transform: translateY(-5px);
+}
+
+.resume-card i {
+    font-size: 3rem;
+    color: #e20101;
+    margin-bottom: 15px;
+}
+
+.resume-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.resume-btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff !important;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: #0056b3;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 3px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+#education {
+    background: #fdfdfd;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #e20101;
+    color: #fff;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #e9ecef;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #e20101;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 2rem;
+    color: #e20101;
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background: #e20101;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
